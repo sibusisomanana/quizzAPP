@@ -12,7 +12,7 @@
 <div >
             
 </div>
-<ion-slides #slides pager>
+<ion-slides #slides>
   <ion-slide *ngFor="let q of Crime" >
       <h1>{{q.question}}</h1>
   <div class="form-group" style="align-items: center;" *ngFor="let a of q.options">
@@ -22,7 +22,7 @@
   <ion-slide> 
 
     <!-- <h1>{{value}}</h1> -->
-    <button ion-button full color="#db3a70" round (click)="displayScore()">Submit Quiz </button>
+    <button (click)="displayScore()" ion-button full color="#db3a70" round>Submit Quiz </button>
 
   </ion-slide>
 

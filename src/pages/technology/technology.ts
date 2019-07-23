@@ -159,6 +159,7 @@ export class TechnologyPage {
      
     }
     this.slides.slideNext();
+    this.slides.lockSwipeToPrev(true);
   }
   
  

@@ -155,6 +155,7 @@ export class UnemploymentPage {
       
     }
     this.slides.slideNext();
+    this.slides.lockSwipeToPrev(true);
   }
 
 }

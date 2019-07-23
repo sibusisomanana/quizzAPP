@@ -19,12 +19,14 @@ import { TechnologyPage } from '../technology/technology';
   templateUrl: 'quiz-topics.html',
 })
 export class QuizTopicsPage {
+ 
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad QuizTopicsPage');
+    
   }
   goToUnemployment(){
     this.navCtrl.push(UnemploymentPage);

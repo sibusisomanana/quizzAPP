@@ -153,8 +153,10 @@ getAnswer(val){
 
   } else {
     console.log('bad');
-    this.slides.slideNext();
+  
   }
+  this.slides.slideNext();
+  this.slides.lockSwipeToPrev(true);
 
 }
 

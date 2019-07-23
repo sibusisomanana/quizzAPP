@@ -148,7 +148,7 @@ getAnswer(val){
 
   } else {
     console.log('bad');
-    this.slides.slideNext();
+
   }
   
   if (val == 'Spirit'){
@@ -160,6 +160,8 @@ getAnswer(val){
     console.log('bad');
     
   }
+  this.slides.slideNext();
+  this.slides.lockSwipeToPrev(true);
 
 }
 

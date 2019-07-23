@@ -1,15 +1,18 @@
 page-quiz-topics {
     .content{
         background-image: url(../../assets/imgs/bb1.png);
+    
+        H2{
+          color: white;
+          font-size: 50px;
+  
+        }
+        .button{
+          color:white;
+          height: 40px;
+          width: 100%;
+        }
+      }
+
     }
 
-      H2{
-        color: white;
-        font-size: 50px;
-
-      }
-      h1{
-        color:white;
-        font-size: 45px;
-      }
-}

@@ -115,7 +115,7 @@ export class CrimePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.item = this.navParams.get('item');
-
+   
     this.availableQuestion = Crime;
     console.log(this.availableQuestion);
    
@@ -191,6 +191,7 @@ export class CrimePage {
 
     }
     this.slides.slideNext();
+    this.slides.lockSwipeToPrev(true);
   }
   
  

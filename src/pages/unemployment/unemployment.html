@@ -9,7 +9,7 @@
 
 
 <ion-content padding>
-    <ion-slides #slides pager>
+    <ion-slides #slides>
         <ion-slide *ngFor="let q of unemployment" >
             <h1>{{q.question}}</h1>
         <div class="form-group" style="align-items: center;" *ngFor="let b of q.options">
